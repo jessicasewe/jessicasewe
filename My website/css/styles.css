@@ -1,0 +1,88 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-weight: Century gothic;
+	/*background:url(iphone.jpeg)no repeat;*/
+	background-size: cover;
+	background-position: center;
+	background-color: teal;
+}
+
+.container{
+	height:75vh;
+	width: 30%;
+	background: rgba(0, 0, 0, .6);
+	position: absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%); 
+	padding: 0 20px;
+}
+
+.img{
+	height:70px;
+	width: 70px;
+	background: url("girl.jpeg");
+	background-size: cover;
+	background-position: center;
+	border-radius: 50px;
+	position: absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%); 
+}
+
+.container h1{
+	color:white;
+	margin-top: 50px;
+}
+
+.container p{
+	color:white;
+	margin-top: 60px;
+}
+
+.btn{
+	background:no-repeat;
+	outline:none;
+	border:1px solid white;
+	color:white;
+	width: 50%;
+	padding:7px 15px;
+	font-size:large;
+	cursor:pointer;
+	transition: 0.3s ease;
+	margin-top: 50px;
+	float:right;
+}
+
+.btn:hover{
+	background: white;
+	color:black;
+
+}
+
+input[type=text],select{
+	width: 100%
+	padding:12px 12px;
+	margin: 8px 0;
+	display:inline-block;
+	border:1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+
+input[type=submit]{
+	width: 100%
+	background-color:#4caf50;
+	color:white;
+	padding: 14px 20px;
+	margin:8px 0;
+	border:none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+input[type=submit]:hover{
+	background-color: #f2f2f2;
+}
